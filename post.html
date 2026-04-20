@@ -4,26 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Post</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- Code highlighting -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
-<link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
 
-  <header class="navbar">
-    <h2>Dylan.dev</h2>
-    <a href="index.html">← Back</a>
-  </header>
+<header class="navbar">
+  <h2>Dylan.dev</h2>
+  <a href="index.html">← Back</a>
+</header>
 
-  <main class="post-container">
-    <h1 id="title"></h1>
-    <div id="content" class="post-content"></div>
-  </main>
+<main class="post-container">
+  <h1 id="title"></h1>
+  <div id="content" class="post-content"></div>
+</main>
 
-  <script type="module" src="scripts/post.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script type="module" src="scripts/post.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script>
   hljs.highlightAll();
 </script>
+
 </body>
 </html>
