@@ -16,103 +16,61 @@ body {
   color: var(--text);
 }
 
-/* NAVBAR */
+/* NAV */
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 2rem;
   border-bottom: 1px solid #ccc;
 }
 
-.navbar a {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: var(--text);
-}
-
-.navbar a:hover {
-  color: var(--accent);
-}
-
 /* HERO */
 .hero {
-  padding: 3rem 2rem;
   text-align: center;
+  padding: 2rem;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-}
-
-/* POSTS GRID */
+/* POSTS */
 .posts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 2rem;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
-/* CARD */
 .card {
-  padding: 1.5rem;
   border: 1px solid #ccc;
+  padding: 1rem;
   border-radius: 10px;
-  transition: transform 0.2s ease;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .card:hover {
   transform: translateY(-5px);
 }
 
-/* FOOTER */
-.footer {
-  text-align: center;
-  padding: 2rem;
-  border-top: 1px solid #ccc;
-}
-
-/* BUTTON */
-button {
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
+/* POST PAGE */
 .post-container {
   max-width: 800px;
   margin: auto;
   padding: 2rem;
 }
 
-/* Typography */
-.post-content h2 {
-  margin-top: 2rem;
-}
-
 .post-content p {
-  line-height: 1.7;
-  margin: 1rem 0;
+  line-height: 1.6;
 }
 
-/* Blockquote */
 .post-content blockquote {
   border-left: 4px solid var(--accent);
   padding-left: 1rem;
-  margin: 1.5rem 0;
   color: gray;
 }
 
-/* Code blocks */
+/* CODE */
 pre {
   background: #1e1e1e;
-  color: #fff;
+  color: white;
   padding: 1rem;
-  overflow-x: auto;
   border-radius: 8px;
-}
-
-/* Inline code */
-code {
-  background: #eee;
-  padding: 2px 5px;
-  border-radius: 4px;
 }
