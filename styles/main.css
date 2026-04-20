@@ -1,4 +1,21 @@
+:root {
+  --bg: white;
+  --text: black;
+}
+
 body {
+  background: var(--bg);
+  color: var(--text);
   font-family: Arial, sans-serif;
   padding: 2rem;
+}
+
+.dark {
+  --bg: #111;
+  --text: #fff;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
 }
