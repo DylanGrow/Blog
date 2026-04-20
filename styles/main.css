@@ -77,3 +77,42 @@ button {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+.post-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Typography */
+.post-content h2 {
+  margin-top: 2rem;
+}
+
+.post-content p {
+  line-height: 1.7;
+  margin: 1rem 0;
+}
+
+/* Blockquote */
+.post-content blockquote {
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: gray;
+}
+
+/* Code blocks */
+pre {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+/* Inline code */
+code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
