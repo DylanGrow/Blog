@@ -9,8 +9,24 @@
   <!-- SEO -->
   <meta name="description" content="Read posts about tech, coding, and projects from Dylan's blog.">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <!-- Open Graph (JS will update these per post) -->
+  <meta property="og:title" content="Dylan Dev Blog">
+  <meta property="og:description" content="Tech, projects, and learning journey in IT and development.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dylan.dev/post.html">
+  <meta property="og:image" content="https://dylan.dev/favicon.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dylan Dev Blog">
+  <meta name="twitter:description" content="Tech, projects, and learning journey in IT and development.">
+
+  <!-- Favicon - FIXED (matches index.html) -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta name="theme-color" content="#0f172a">
 
   <link rel="stylesheet" href="styles/main.css">
 
@@ -21,21 +37,26 @@
 <body>
 
 <header class="navbar">
-  <h2>Dylan.dev</h2>
-  <a href="index.html">← Back</a>
+  <h2><a href="/" style="color:inherit;text-decoration:none">Dylan.dev</a></h2>
+  <nav>
+    <a href="/">← Back</a>
+  </nav>
 </header>
 
 <main class="post-container">
-  <h1 id="title"></h1>
-  <div id="content" class="post-content"></div>
+  <article>
+    <h1 id="title">Loading...</h1>
+    <div id="content" class="post-content"></div>
+  </article>
 </main>
 
-<script type="module" src="scripts/post.js"></script>
+<footer class="footer">
+  <p>© 2026 Dylan.dev</p>
+</footer>
 
+<script type="module" src="scripts/post.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-<script>
-  hljs.highlightAll();
-</script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>
