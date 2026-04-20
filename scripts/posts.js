@@ -3,18 +3,28 @@ export const posts = [
     id: 1,
     title: "My First Post",
     summary: "This is my first blog post.",
-    content: "Welcome to my blog. This is where I talk about tech, projects, and ideas."
+    content: `
+      <p>Welcome to my blog. This is where I document my journey into tech.</p>
+
+      <h2>Why I Started</h2>
+      <p>I wanted a place to track what I'm learning.</p>
+
+      <blockquote>
+        "The best way to learn is to build."
+      </blockquote>
+
+      <h2>Example Code</h2>
+      <pre><code class="language-js">
+function hello() {
+  console.log("Hello world");
+}
+      </code></pre>
+    `
   },
   {
     id: 2,
-    title: "Cool Tech I Found",
-    summary: "Interesting tools and ideas.",
-    content: "Today I found some really interesting tools that improve productivity..."
-  },
-  {
-    id: 3,
-    title: "Project Breakdown",
-    summary: "Explaining something I built.",
-    content: "Here’s a breakdown of a project I worked on and what I learned..."
+    title: "Second Post",
+    summary: "Another idea.",
+    content: `<p>This is another post to test routing.</p>`
   }
 ];
