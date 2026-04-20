@@ -1,8 +1,3 @@
-const toggle = document.getElementById("themeToggle");
-
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-});
 import { posts } from "./posts.js";
 
 const container = document.getElementById("posts");
@@ -21,4 +16,10 @@ posts.forEach(post => {
   });
 
   container.appendChild(card);
+});
+
+// dark mode
+const toggle = document.getElementById("themeToggle");
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
 });
