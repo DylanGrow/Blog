@@ -36,3 +36,4 @@ function hello() {
   }
 ];
 console.log("post.js running");
+console.log("posts:", posts);
