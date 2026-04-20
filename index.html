@@ -8,14 +8,26 @@
 
   <!-- SEO -->
   <meta name="description" content="Dylan's tech blog covering IT, coding, projects, and interesting things discovered on the web.">
+  <link rel="canonical" href="https://dylan.dev/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Dylan Dev Blog">
   <meta property="og:description" content="Tech, projects, and learning journey in IT and development.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dylan.dev/">
+  <meta property="og:image" content="favicon.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dylan Dev Blog">
+  <meta name="twitter:description" content="Tech, projects, and learning journey in IT and development.">
+
+  <!-- Favicon - FIXED PATHS -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta name="theme-color" content="#0f172a">
 
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -25,9 +37,9 @@
 <header class="navbar">
   <h2>Dylan.dev</h2>
   <nav>
-    <a href="#">Home</a>
+    <a href="/">Home</a>
   </nav>
-  <button id="themeToggle">🌙</button>
+  <button id="themeToggle" aria-label="Toggle theme">🌙</button>
 </header>
 
 <section class="hero">
