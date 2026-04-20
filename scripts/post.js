@@ -35,3 +35,4 @@ function hello() {
     `
   }
 ];
+console.log("post.js running");
